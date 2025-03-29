@@ -1,0 +1,148 @@
+/* Overall Page CSS */
+html{
+    background-color: rgb(32, 68, 230);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h1, h2, h3, h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Header Info */
+header{
+    background-color: rgb(33, 235, 141);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow:1px 1px 2px rgb(10, 226, 151);
+}
+header img{
+    width: 400px;
+    height: 400px;
+}
+/** Main Index/Login page **/
+/* #Intro CSS */
+#intro{
+    padding: 25px;
+}
+#intro h1{
+    font-size: 70px;
+    text-shadow:1px 1px 2px white;
+}
+#intro p{
+    font-size: 35px;
+    padding: 15px;
+}
+/* #loginInfo */
+#loginInfo h2{
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow:1px 1px 2px rgb(243, 11, 11);
+}
+/* #signUp */
+#signUp h2{
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow:1px 1px 2px rgb(29, 243, 125);
+}
+/** Login-Success Page **/
+#loginSuccess{
+    background-color: rgb(230, 209, 23);
+}
+#loginSuccess h2{
+    font-size: 85px;
+    text-decoration: underline;
+    text-shadow:1px 1px 2px rgb(11, 19, 243);
+}
+#explination h3{
+    font-size: 30px;
+}
+#explination p{
+    font-size: 15px;
+}
+/* Section1 */
+#section1{
+    background-color: rgb(99, 229, 229);
+    padding: 10px;
+}
+#section1 h4{
+    font-size: 50px;
+    color: rgb(6, 69, 48);
+    text-decoration: underline;
+}
+#section1 p{
+    font-size: 20px;
+    color: rgb(6, 69, 48);
+}
+#section1 img{
+    width: 350px;
+    height: 600px;
+}
+/* Section2 */
+#section2{
+    background-color: rgb(233, 23, 23);
+    padding: 10px;
+}
+#section2 h4{
+    font-size: 50px;
+    color: rgb(219, 219, 2);
+    text-decoration: underline;
+}
+#section2 p{
+    font-size: 20px;
+    color: rgb(219, 219, 2);
+}
+#section2 img{
+    width: 1200px;
+    height: 700px;
+}
+/* Section3 */
+#section3{
+    background-color: rgb(233, 23, 191);
+    padding: 10px;
+}
+#section3 h4{
+    font-size: 50px;
+    color: rgb(2, 139, 219);
+    text-decoration: underline;
+}
+#section3 p{
+    font-size: 20px;
+    color: rgb(2, 139, 219);
+}
+#section3 img{
+    width: 1200px;
+    height: 700px;
+}
+/* Section4 */
+#section4{
+    background-color: rgb(50, 5, 5);
+    padding: 10px;
+}
+#section4 h4{
+    font-size: 50px;
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+#section4 p{
+    font-size: 20px;
+    color: #f4f4f4;
+}
+#section4 img{
+    width: 1200px;
+    height: 700px;
+}
+/* Global Footer */
+footer{
+    background-color: rgb(10, 82, 17);
+}
+footer p{
+    font-size: 20px;
+    font-style: italic;
+}
